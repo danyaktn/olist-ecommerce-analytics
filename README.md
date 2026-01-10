@@ -32,15 +32,15 @@
 ## 4) Структура проекта
 Пример структуры (можно адаптировать под свой репозиторий):
 
-├── data/
-│ ├── raw/ # исходные CSV Olist
-│ └── processed/ # витрина и агрегаты для DataLens
-├── notebooks/
-│ ├── 01_eda.ipynb # первичная проверка данных
-│ ├── 02_mart_build.ipynb # сбор витрины mart_orders.csv
-│ └── 03_insights.ipynb # графики/проверки/агрегаты
-├── assets/ # скриншоты дашборда
-└── README.md
+data/
+raw/ # исходные CSV Olist
+processed/ # витрина и агрегаты для DataLens
+notebooks/
+  01_eda.ipynb # первичная проверка данных
+  02_mart_build.ipynb # сбор витрины mart_orders.csv
+  03_insights.ipynb # графики/проверки/агрегаты
+  assets/ # скриншоты дашборда
+  README.md
 
 ## 5) Витрина данных (mart)
 Главная витрина: `data/processed/mart_orders.csv`
